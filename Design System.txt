@@ -1,0 +1,117 @@
+Design System: "Vertex"
+Theme: Precision, Futurism, High-Performance.
+
+1. Core Philosophy
+The 60-30-10 Rule:
+
+60% (Backgrounds): Deep Blacks and Charcoals.
+
+30% (Content/Typography): Whites and Cool Greys.
+
+10% (Accents): Electric Green (Used only for Call-to-Actions and key highlights).
+
+Whitespace: Massive breathing room. The content should feel like it is floating.
+
+Geometry: Sharp edges mixed with subtle rounding (4px radius) to suggest software engineering precision.
+
+2. Color Palette
+This palette relies on high contrast to create a "modern" impact.
+
+A. Primary (The "Exceptional" Accent)
+
+Name: Terminal Green
+
+Hex: #00FF94 (A bright, neon mint)
+
+Usage: Primary buttons, hyperlinks, cursor accents, and data visualization lines.
+
+Psychology: Represents growth, code execution, and energy.
+
+B. Neutrals (The "Clean" Base)
+
+Surface Black: #0A0A0A (Main background - slightly softer than pure black).
+
+Card Black: #141414 (Secondary background for cards/sections).
+
+Stroke Grey: #333333 (Subtle borders for separation).
+
+C. Typography Colors
+
+Display White: #FFFFFF (Headlines).
+
+Body Grey: #B0B0B0 (Paragraphs - reduces visual vibration against black).
+
+3. Typography
+To look "modern," we will pair a character-rich geometric font with a highly legible functional font.
+
+A. Headings (Display)
+
+Font: Space Grotesk (or Syne for something more artistic).
+
+Characteristics: Monospaced qualities, wide stance, geometric.
+
+Weights: Bold (700) for H1/H2; Medium (500) for H3.
+
+Tracking: Tight (-2% letter spacing) to make headlines feel compact and solid.
+
+B. Body (Functional)
+
+Font: Inter (or Satoshi).
+
+Characteristics: Tall x-height, extremely readable on screens.
+
+Weights: Regular (400) for body; Semi-Bold (600) for navigation.
+
+Line Height: 1.6 (Open line height to enhance the "clean" feeling).
+
+4. UI Component Library
+Buttons
+Primary Button (CTA):
+
+Background: Terminal Green (#00FF94).
+
+Text: Surface Black (#0A0A0A) - Bold.
+
+Shape: Sharp corners or very slight radius (2px).
+
+Interaction: On hover, the button slides up 2px with a hard shadow.
+
+Secondary Button:
+
+Background: Transparent.
+
+Border: 1px Solid Display White.
+
+Text: Display White.
+
+Cards (Services/Testimonials)
+Background: Card Black (#141414).
+
+Border: 1px solid #222222.
+
+Hover Effect: No shadow. Instead, the border color transitions to Terminal Green on hover. This mimics a "circuit" connecting.
+
+Input Fields
+State (Default): Dark background (#1A1A1A), no border, bottom line only (#333333).
+
+State (Active): Bottom line turns Terminal Green.
+
+5. Visual Effects & Textures
+A. The "Glow"
+
+Do not use flat colors only. Use a radial gradient of the Terminal Green at 5% opacity behind major images or headlines. This creates a "cinematic" lighting effect in the dark mode.
+
+B. Grid Lines
+
+Use a very subtle background pattern of vertical lines (Color #1A1A1A) spanning the height of the page. This reinforces the "Software Architecture" vibe.
+
+C. Imagery Style
+
+Photography: Black and white photography of people/teams, but with the background cut out or darkened.
+
+Graphics: Minimalist wireframes or code snippets syntax-highlighted in Green and White.
+
+6. Layout Principles
+Asymmetry: Don't center everything. Use a strong left alignment for text, balancing it with large negative space or imagery on the right.
+
+Glassmorphism (Optional): For the navigation bar, use a backdrop blur (blur(10px)) with a 50% opacity black background to let content scroll smoothly underneath.

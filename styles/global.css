@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Core Reset & Base Styles */
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  @apply bg-nexus-black text-nexus-muted font-body antialiased;
+  /* Applies the Grid Pattern globally with very low opacity */
+  background-image: linear-gradient(to right, #1A1A1A 1px, transparent 1px);
+  background-size: 100px 100%; /* Vertical lines every 100px */
+  background-attachment: fixed; /* Parallax feel */
+}
+
+/* Typography Defaults */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-display text-nexus-text tracking-tight-display;
+}
+
+/* Custom Scrollbar for that "Cyberpunk/Terminal" feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-nexus-black;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-nexus-border rounded-nexus-sm;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-nexus-primary;
+}
+
+/* Slick Slider Overrides (if kept) */
+.slick-slider, .slick-list, .slick-track { height: 100%; }
+.slick-list { overflow: hidden !important; }
+.slick-slide { height: 100%; }
+.slick-slide > div { height: 100%; }
+
+
+h1, h2, h3 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slideDown {
+  animation: slideDown 0.3s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeIn 0.6s ease-out;
+}
