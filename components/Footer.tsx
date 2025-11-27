@@ -19,7 +19,7 @@ export default function Footer() {
     {
       name: "Email",
       icon: Mail,
-      href: "mailto:hello@nexus.dev",
+      href: "mailto:nexussoftwaredev@gmail.com",
     },
     {
       name: "WhatsApp",
@@ -29,7 +29,7 @@ export default function Footer() {
     {
       name: "Instagram",
       icon: Instagram,
-      href: "https://instagram.com/nexus.dev",
+      href: "https://instagram.com/nexdevsoftware",
     },
   ];
 
@@ -130,12 +130,12 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://instagram.com/nexus.dev"
+                    href="https://instagram.com/nexdevsoftware"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-nexus-muted hover:text-nexus-primary font-body text-sm transition-colors duration-200 block"
                   >
-                    @nexus.dev
+                    @nexdevsoftware
                   </a>
                 </li>
               </ul>

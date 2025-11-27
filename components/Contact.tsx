@@ -21,8 +21,8 @@ export default function ContactSection() {
     {
       icon: Instagram,
       label: "Instagram",
-      value: "@nexus.dev",
-      href: "https://instagram.com/nexus.dev",
+      value: "@nexdevsoftware",
+      href: "https://instagram.com/nexdevsoftware",
       description: "Follow our latest work and updates",
     },
   ];

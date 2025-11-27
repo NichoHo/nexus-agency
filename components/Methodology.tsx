@@ -237,25 +237,6 @@ export default function MethodologySection() {
                       ></div>
                     </div>
                   </div>
-
-                  {/* Mobile Icon */}
-                  <div className="lg:hidden mb-6">
-                    <div
-                      className="w-20 h-20 rounded-nexus flex items-center justify-center transition-all duration-500"
-                      style={{
-                        backgroundColor: isActive ? "rgba(0, 255, 148, 0.1)" : "#141414",
-                        borderWidth: "2px",
-                        borderColor: isActive ? "#00FF94" : "#333333",
-                      }}
-                    >
-                      <Icon
-                        className="w-10 h-10 transition-all duration-500"
-                        style={{
-                          color: isActive ? "#00FF94" : "#B0B0B0",
-                        }}
-                      />
-                    </div>
-                  </div>
                 </div>
               </div>
             );

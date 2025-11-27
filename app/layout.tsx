@@ -30,11 +30,11 @@ export const metadata = {
     title: "Nexus Software | Precision Engineering",
     description:
       "Building the digital future with precision. We engineer high-performance web applications and digital experiences.",
-    url: "https://nexus.dev", // Replace with actual domain
+    url: "https://www.nexdevsoftware.com/",
     siteName: "Nexus Software",
     images: [
       {
-        url: "https://nexus.dev/og-image.png", // Replace with actual OG Image
+        url: "https://www.nexdevsoftware.com/og-image.png", // Replace with actual OG Image
         width: 1200,
         height: 630,
         alt: "Nexus Software Development Agency",
@@ -62,8 +62,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "ProfessionalService",
               name: "Nexus Software",
-              url: "https://nexus.dev",
-              logo: "https://nexus.dev/logo.png",
+              url: "https://www.nexdevsoftware.com/",
+              logo: "https://www.nexdevsoftware.com/logo.png",
               description:
                 "Nexus is a premier software development agency delivering high-performance web applications and digital architecture.",
               foundingDate: "2023",
@@ -75,7 +75,7 @@ export default function RootLayout({
               contactPoint: {
                 "@type": "ContactPoint",
                 contactType: "Sales",
-                email: "hello@nexus.dev",
+                email: "nexussoftwaredev@gmail.com",
                 areaServed: "Worldwide",
               },
               offers: {
