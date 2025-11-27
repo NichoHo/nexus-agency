@@ -75,21 +75,34 @@ export default function HeroSection() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 pt-4">
               {/* Primary CTA */}
-              <button className="group relative px-8 py-4 bg-nexus-primary text-nexus-black font-bold text-base rounded-nexus overflow-hidden transition-all duration-300 hover:shadow-[0_4px_0_0_rgba(0,255,148,0.3)] hover:-translate-y-0.5">
-                <span className="relative z-10 flex items-center space-x-2">
-                  <span>Start Your Project</span>
-                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-                </span>
-                <div className="absolute inset-0 bg-nexus-text transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
-              </button>
+              <a 
+                href="mailto:nexussoftwaredev@gmail.com"
+                className="
+                  group relative px-8 py-4 
+                  font-bold text-base rounded-nexus 
+                  border-2 border-nexus-primary 
+                  bg-nexus-primary text-nexus-black
+                  hover:bg-transparent hover:text-nexus-primary
+                  transition-all duration-300 
+                  hover:shadow-[0_0_20px_rgba(0,255,148,0.3)] 
+                  hover:-translate-y-0.5
+                  flex items-center space-x-2
+                "
+              >
+                <span>Start Your Project</span>
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300" />
+              </a>
 
               {/* Secondary CTA */}
-              <button className="group px-8 py-4 border border-nexus-text text-nexus-text font-semibold text-base rounded-nexus hover:border-nexus-primary hover:text-nexus-primary transition-all duration-300">
+              <a 
+                href="#portofolio"
+                className="group px-8 py-4 border border-nexus-text text-nexus-text font-semibold text-base rounded-nexus hover:border-nexus-primary hover:text-nexus-primary transition-all duration-300"
+              >
                 <span className="flex items-center space-x-2">
                   <span>View Our Work</span>
                   <Code2 className="w-5 h-5 group-hover:rotate-12 transition-transform duration-300" />
                 </span>
-              </button>
+              </a>
             </div>
 
             {/* Stats/Trust Indicators */}

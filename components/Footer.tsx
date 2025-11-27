@@ -24,7 +24,7 @@ export default function Footer() {
     {
       name: "WhatsApp",
       icon: MessageCircle,
-      href: "https://wa.me/15551234567",
+      href: "https://wa.me/6281297243518",
     },
     {
       name: "Instagram",
