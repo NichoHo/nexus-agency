@@ -170,12 +170,6 @@ export default function TestimonialsSection() {
                     <div className="text-nexus-muted text-xs">Satisfaction</div>
                   </div>
                 </div>
-
-                {/* External Link */}
-                <button className="flex items-center space-x-2 text-nexus-muted hover:text-nexus-primary transition-colors duration-300">
-                  <ExternalLink className="w-4 h-4" />
-                  <span className="text-sm font-semibold">View Profile</span>
-                </button>
               </div>
 
               {/* Right: Testimonial Quote */}

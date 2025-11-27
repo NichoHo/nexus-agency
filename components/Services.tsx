@@ -159,12 +159,6 @@ export default function ServicesSection() {
                   </div>
                 </div>
 
-                {/* Arrow Link */}
-                <div className="mt-6 flex items-center text-nexus-muted group-hover:text-nexus-primary transition-colors duration-300">
-                  <span className="text-sm font-semibold">Learn More</span>
-                  <ArrowUpRight className="w-4 h-4 ml-1 transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300" />
-                </div>
-
                 {/* Circuit Line Effect (Bottom) */}
                 <div
                   className="absolute bottom-0 left-0 h-[2px] bg-nexus-primary transition-all duration-500 ease-out"
