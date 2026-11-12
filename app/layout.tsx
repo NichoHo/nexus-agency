@@ -1,21 +1,10 @@
 import "../styles/global.css";
-import { Space_Grotesk, Inter } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import Script from "next/script";
 
-// Font Configuration
-const spaceGrotesk = Space_Grotesk({
-  subsets: ["latin"],
-  variable: "--font-space",
-  weight: ["300", "400", "500", "600", "700"],
-});
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  weight: ["400", "500", "600"],
-});
+const geist = Geist({ subsets: ["latin"], variable: "--font-geist" });
+const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" });
 
 export const metadata = {
   title: "Nexus Software | Precision Engineering & Digital Architecture",
@@ -51,7 +40,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${spaceGrotesk.variable} ${inter.variable}`}>
+    <html lang="en" className={`${geist.variable} ${geistMono.variable}`}>
       <head>
         {/* ✅ JSON-LD Structured Data for Agency SEO */}
         <Script
@@ -91,15 +80,9 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="bg-nexus-black text-nexus-muted antialiased relative selection:bg-nexus-primary selection:text-nexus-black">
-        {/* Navbar Container */}
+      <body id="top">
         <Navbar />
-        
-        {/* Main Content */}
         {children}
-
-        {/* Footer Container */}
-        <Footer />
       </body>
     </html>
   );
